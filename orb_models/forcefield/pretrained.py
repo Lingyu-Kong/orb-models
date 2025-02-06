@@ -90,7 +90,7 @@ def load_model_for_inference(
 
 
 def orb_v2(
-    weights_path: str = "https://storage.googleapis.com/orbitalmaterials-public-models/forcefields/orb-v2-20241011.ckpt",  # noqa: E501
+    weights_path: str = "https://orbitalmaterials-public-models.s3.us-west-1.amazonaws.com/forcefields/orb-v2-20241011.ckpt",  # noqa: E501
     device: Union[torch.device, str] = None,
 ):
     """Load ORB v2."""
